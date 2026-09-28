@@ -27,3 +27,5 @@ https://wakatime.com/
 https://bitwarden.com/
 
 https://discord.com/
+
+https://about.gitlab.com/
