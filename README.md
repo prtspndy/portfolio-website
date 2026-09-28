@@ -25,3 +25,5 @@ https://topmate.io/
 https://wakatime.com/
 
 https://bitwarden.com/
+
+https://discord.com/
