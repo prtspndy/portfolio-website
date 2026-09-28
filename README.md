@@ -23,3 +23,5 @@ https://x.com/home
 https://topmate.io/
 
 https://wakatime.com/
+
+https://bitwarden.com/
