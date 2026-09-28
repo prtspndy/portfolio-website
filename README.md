@@ -17,3 +17,5 @@ https://huggingface.co/
 https://leetcode.com/
 
 https://www.linkedin.com/
+
+https://x.com/home
