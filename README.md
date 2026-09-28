@@ -11,3 +11,5 @@ Link 🔗 : https://pritesh-portfolio-sigma.vercel.app/
 https://trendshift.io/
 
 https://www.kaggle.com/
+
+https://huggingface.co/
