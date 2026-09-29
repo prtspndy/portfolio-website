@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Pritesh Pandya — developer portfolio. Web development, C programming, full-stack projects and learning in public.">
+  <meta name="theme-color" content="#070707">
   <title>Pritesh Pandya — Developer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +13,12 @@
 </head>
 <body>
   <div class="noise"></div>
-  <div class="cursor-glow"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
   <header class="nav">
     <a class="brand" href="#top"><span>PP</span><b>PRITESH</b></a>
-    <button class="menu" aria-label="Open navigation">☰</button>
-    <nav>
+    <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+    <nav id="primary-navigation" aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#work">Work</a>
       <a href="#skills">Skills</a>
