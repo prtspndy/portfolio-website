@@ -26,3 +26,5 @@ Then open [http://localhost:8000](http://localhost:8000). You can also open `pri
 - [LinkedIn](https://www.linkedin.com/in/pritesh-pandya-0702prts)
 - [Kaggle](https://www.kaggle.com/priteshpandya)
 - [YouTube](https://youtube.com/@priteshpandya-20)
+
+The portfolio is deployed with [Vercel](https://vercel.com/).
