@@ -50,7 +50,7 @@ body:before {
   height: 260px;
   border-radius: 50%;
   pointer-events: none;
-  transform: translate(-50%, -50%);
+  transform: translate3d(-1000px, -1000px, 0);
   background: radial-gradient(circle, rgba(255, 48, 56, 0.1), transparent 68%);
   z-index: 0;
 }
@@ -108,6 +108,17 @@ body:before {
   border: 0;
   color: #fff;
   font-size: 22px;
+  cursor: pointer;
+}
+.menu:focus-visible,
+.nav a:focus-visible,
+.button:focus-visible,
+.social-row a:focus-visible,
+.project a:focus-visible,
+.contact-links a:focus-visible,
+footer a:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
 }
 .section {
   max-width: var(--max);
@@ -610,5 +621,27 @@ footer a {
   footer {
     flex-direction: column;
     gap: 12px;
+  }
+}
+
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .cursor-glow {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .marquee div {
+    animation: none;
+  }
+  .project,
+  .contact-links a {
+    transition: none;
+  }
+  .project:hover {
+    transform: none;
   }
 }
