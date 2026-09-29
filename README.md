@@ -1,30 +1,37 @@
-# Pritesh Pandya — Portfolio
+# portfolio-website
 
-A responsive, dark-themed portfolio highlighting my projects, skills, and learning journey.
+Link 🔗 : https://pritesh-portfolio-sigma.vercel.app/
 
-**Live site:** [pritesh-portfolio-sigma.vercel.app](https://pritesh-portfolio-sigma.vercel.app/)
+## Notice
 
-## Preview locally
+ Still growing, Still improving, Not the final version.
 
-The site is plain HTML, CSS, and JavaScript. No dependencies or build step are required.
+# ........
 
-```sh
-python3 -m http.server 8000 --directory pritesh-portfolio
-```
+https://trendshift.io/
 
-Then open [http://localhost:8000](http://localhost:8000). You can also open `pritesh-portfolio/index.html` directly in a browser.
+https://www.kaggle.com/
 
-## Project structure
+https://huggingface.co/
 
-- `pritesh-portfolio/index.html` — page content and metadata
-- `pritesh-portfolio/style.css` — responsive layout and visual styles
-- `pritesh-portfolio/script.js` — navigation and lightweight interactions
+https://leetcode.com/
 
-## Find me
+https://www.linkedin.com/
 
-- [GitHub](https://github.com/prtspndy)
-- [LinkedIn](https://www.linkedin.com/in/pritesh-pandya-0702prts)
-- [Kaggle](https://www.kaggle.com/priteshpandya)
-- [YouTube](https://youtube.com/@priteshpandya-20)
+https://x.com/home
 
-The portfolio is deployed with [Vercel](https://vercel.com/).
+https://topmate.io/
+
+https://wakatime.com/
+
+https://bitwarden.com/
+
+https://discord.com/
+
+https://about.gitlab.com/
+
+https://www.youtube.com/
+
+https://www.statflare.in/github-profile-analyzer
+
+https://hackathon.odoo.com/
