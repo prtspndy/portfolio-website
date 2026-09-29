@@ -33,3 +33,5 @@ https://about.gitlab.com/
 https://www.youtube.com/
 
 https://www.statflare.in/github-profile-analyzer
+
+https://hackathon.odoo.com/
