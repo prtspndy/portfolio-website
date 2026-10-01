@@ -3,162 +3,253 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pritesh Pandya — developer portfolio. Web development, C programming, full-stack projects and learning in public.">
+  <meta name="description" content="Pritesh Pandya is a developer from Rajkot, Gujarat, building practical web and mobile applications one project at a time.">
   <meta name="theme-color" content="#070707">
-  <title>Pritesh Pandya — Developer Portfolio</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pritesh Pandya — Developer & Builder">
+  <meta property="og:description" content="Web and mobile applications, built one practical project at a time.">
+  <meta property="og:url" content="https://pritesh-portfolio-sigma.vercel.app/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/186447262?v=4">
+  <meta name="twitter:card" content="summary">
+  <title>Pritesh Pandya — Developer &amp; Builder</title>
+  <link rel="canonical" href="https://pritesh-portfolio-sigma.vercel.app/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
   <div class="cursor-glow" aria-hidden="true"></div>
 
-  <header class="nav">
-    <a class="brand" href="#top"><span>PP</span><b>PRITESH</b></a>
-    <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button>
-    <nav id="primary-navigation" aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#skills">Skills</a>
-      <a href="#journey">Journey</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-cta" href="https://github.com/prtspndy" target="_blank" rel="noreferrer">GitHub ↗</a>
+  <header class="site-header">
+    <div class="nav">
+      <a class="brand" href="#top" aria-label="Pritesh Pandya — home">
+        <span class="brand-mark" aria-hidden="true">PP</span>
+        <span class="brand-name">PRITESH<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="menu-icon" aria-hidden="true">☰</span>
+      </button>
+      <nav id="primary-navigation" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="https://github.com/prtspndy" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero section">
+  <main id="main">
+    <section id="top" class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow"><i></i> DEVELOPER · RAJKOT, GUJARAT</p>
-        <h1>Building my way<br>from <em>curiosity</em><br>to code.</h1>
-        <p class="hero-text">I’m Pritesh Pandya — a developer learning in public, strengthening my programming fundamentals and turning ideas into practical web experiences.</p>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> DEVELOPER · RAJKOT, INDIA</p>
+        <h1>Ideas into<br><em>useful</em> things<span class="hero-period">.</span></h1>
+        <p class="hero-text">I’m Pritesh — I build web and mobile applications around real workflows, and keep sharpening my fundamentals with every project.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#work">Explore my work <span>↓</span></a>
-          <a class="button ghost" href="https://github.com/prtspndy" target="_blank" rel="noreferrer">View GitHub ↗</a>
+          <a class="button primary" href="#work">Explore projects <span aria-hidden="true">↓</span></a>
+          <a class="button ghost" href="https://github.com/prtspndy" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="social-row">
-          <a href="https://www.linkedin.com/in/pritesh-pandya-0702prts" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://x.com/prtspndy" target="_blank" rel="noreferrer">X</a>
-          <a href="https://www.kaggle.com/priteshpandya" target="_blank" rel="noreferrer">Kaggle</a>
-          <a href="https://youtube.com/@priteshpandya-20" target="_blank" rel="noreferrer">YouTube</a>
+        <nav class="social-row" aria-label="Social profiles">
+          <a href="https://www.linkedin.com/in/pritesh-pandya-0702prts" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://x.com/prtspndy" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://www.kaggle.com/priteshpandya" target="_blank" rel="noopener noreferrer">Kaggle</a>
+          <a href="https://youtube.com/@priteshpandya-20" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </nav>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="About Pritesh">
+        <div class="card-topline"><span>BUILDING IN PUBLIC</span><span>INDIA / GUJARAT</span></div>
+        <div class="portrait-wrap">
+          <div class="portrait-ring" aria-hidden="true"></div>
+          <img
+            class="portrait"
+            src="https://avatars.githubusercontent.com/u/186447262?v=4"
+            alt="Pritesh Pandya"
+            width="192"
+            height="192"
+            fetchpriority="high"
+            decoding="async">
+          <span class="portrait-badge" aria-hidden="true">PP</span>
+        </div>
+        <h2>Pritesh Pandya</h2>
+        <p class="hero-card-role">Developer &amp; curious builder</p>
+        <div class="hero-card-rule"></div>
+        <div class="hero-card-meta">
+          <span>BASED IN</span><strong>Rajkot, Gujarat</strong>
+          <span>FOCUS</span><strong>Web · Mobile · Learning</strong>
+        </div>
+        <a class="card-link" href="https://github.com/prtspndy" target="_blank" rel="noopener noreferrer">
+          <span>Explore GitHub profile</span><span aria-hidden="true">↗</span>
+        </a>
+        <span class="card-index" aria-hidden="true">01 / 04</span>
+      </aside>
+      <span class="hero-deco hero-deco-top" aria-hidden="true">&lt;build /&gt;</span>
+      <span class="hero-deco hero-deco-bottom" aria-hidden="true">const next = "ship";</span>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>WEB APPLICATIONS</span><i aria-hidden="true">✳</i><span>MOBILE BUILDS</span><i aria-hidden="true">✳</i><span>OPEN LEARNING</span><i aria-hidden="true">✳</i><span>PRODUCT THINKING</span><i aria-hidden="true">✳</i>
+        <span aria-hidden="true">WEB APPLICATIONS</span><i aria-hidden="true">✳</i><span aria-hidden="true">MOBILE BUILDS</span><i aria-hidden="true">✳</i><span aria-hidden="true">OPEN LEARNING</span><i aria-hidden="true">✳</i><span aria-hidden="true">PRODUCT THINKING</span><i aria-hidden="true">✳</i>
+      </div>
+    </div>
+
+    <section id="about" class="section about-section">
+      <div class="section-kicker"><span>01</span> A LITTLE ABOUT ME</div>
+      <div class="about-layout">
+        <h2 class="display">Useful software,<br><em>one workflow at a time.</em></h2>
+        <div class="about-copy">
+          <p>I’m a developer based in Rajkot, Gujarat. I like building software with a clear purpose — helping someone plan a trip, follow a document request, or manage everyday invoices.</p>
+          <p>My public work spans web apps, a Flutter utility, responsive websites, and smaller experiments. I’m still learning, and I treat each build as a chance to make the next one better.</p>
+          <a class="text-link" href="https://github.com/prtspndy" target="_blank" rel="noopener noreferrer">A closer look at my GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-art">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="profile-card">
-          <img src="https://avatars.githubusercontent.com/u/212783961?v=4" alt="Pritesh Pandya GitHub avatar">
-          <div class="profile-meta"><span>prtspndy</span><small>OPEN TO LEARNING</small></div>
-          <div class="live-dot"></div>
-        </div>
-        <div class="code-float top">&lt;build /&gt;</div>
-        <div class="code-float bottom">const future = "shipping";</div>
+      <div class="principles" aria-label="How I work">
+        <div><span>01</span><strong>Start with a real use case</strong></div>
+        <div><span>02</span><strong>Build, test, and keep learning</strong></div>
+        <div><span>03</span><strong>Share the work in the open</strong></div>
       </div>
     </section>
 
-    <section class="marquee" aria-label="Focus areas">
-      <div>WEB DEVELOPMENT <span>✦</span> C PROGRAMMING <span>✦</span> JAVASCRIPT <span>✦</span> FULL-STACK <span>✦</span> LEARNING IN PUBLIC <span>✦</span> WEB DEVELOPMENT <span>✦</span></div>
-    </section>
-
-    <section id="about" class="section split">
-      <div class="section-label"><span>01</span> ABOUT</div>
-      <div class="about-content">
-        <p class="display">Not a finished résumé.<br><em>A work in progress.</em></p>
-        <p class="body-copy">My GitHub is a record of how I learn: small experiments, fundamentals, and increasingly ambitious builds. Right now I’m focused on C, semantic HTML and web-design fundamentals, while exploring the JavaScript ecosystem and full-stack application development.</p>
-        <div class="facts">
-          <div><strong>07</strong><span>public repositories</span></div>
-          <div><strong>05</strong><span>featured projects / learning tracks</span></div>
-          <div><strong>01</strong><span>hackathon flagship build</span></div>
-        </div>
+    <section id="work" class="section work-section">
+      <div class="section-heading">
+        <div class="section-kicker"><span>02</span> SELECTED PROJECTS</div>
+        <p>Things I’ve been making — from full-stack workflows to focused frontend builds.</p>
       </div>
-    </section>
 
-    <section id="work" class="section">
-      <div class="section-label"><span>02</span> SELECTED WORK</div>
       <div class="work-grid">
-        <article class="project featured">
-          <div class="project-no">01 / FLAGSHIP</div>
-          <div class="project-head"><h3>GlobeTrotter</h3><span>↗</span></div>
-          <p>A personalized multi-city travel-planning platform built for Odoo x LDCE Ahmedabad Hackathon 26. Plan itineraries, discover destinations and activities, track budgets, visualize trips and share plans.</p>
-          <div class="tags"><span>React</span><span>Vite</span><span>Tailwind</span><span>Node</span><span>Express</span><span>MongoDB</span><span>JWT</span><span>OAuth</span></div>
-          <div class="project-links"><a href="https://globetrotter1-kappa.vercel.app/" target="_blank" rel="noreferrer">Live project ↗</a><a href="https://github.com/prtspndy/GlobeTrotter" target="_blank" rel="noreferrer">Source ↗</a><a href="https://youtu.be/QE_F3dc9Q6M" target="_blank" rel="noreferrer">Demo ↗</a></div>
+        <article class="project project-featured reveal">
+          <div class="project-art travel-art" aria-hidden="true">
+            <span class="art-orbit art-orbit-one"></span><span class="art-orbit art-orbit-two"></span>
+            <span class="travel-pin">✳</span><span class="art-label">YOUR NEXT<br>CHAPTER</span>
+            <span class="art-route">✦ &nbsp; EXPLORE MORE</span>
+          </div>
+          <div class="project-info">
+            <div class="project-overline"><span>01 / HACKATHON BUILD</span><span class="project-year">2026</span></div>
+            <h3>GlobeTrotter</h3>
+            <p>A multi-city travel planner for building day-by-day itineraries, discovering activities, tracking budgets, and sharing trips. Built for the Odoo × LDCE hackathon.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+            <div class="project-links">
+              <a href="https://globetrotter1-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/prtspndy/GlobeTrotter" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">↗</span></a>
+              <a href="https://youtu.be/QE_F3dc9Q6M" target="_blank" rel="noopener noreferrer">Demo video <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
         </article>
 
-        <article class="project">
-          <div class="project-no">02 / FUNDAMENTALS</div><h3>Web-Designing</h3>
-          <p>An open learning journal covering HTML structure, headings, paragraphs, forms, semantic markup and introductory accessibility practices.</p>
-          <div class="tags"><span>HTML5</span><span>Accessibility</span><span>Web Design</span></div>
-          <a class="repo-link" href="https://github.com/prtspndy/Web-Designing" target="_blank" rel="noreferrer">View repository ↗</a>
+        <article class="project reveal">
+          <div class="project-art gov-art" aria-hidden="true">
+            <span class="gov-stamp">DEMO<br>PROTOTYPE</span><span class="gov-number">GOV—2026—0001</span>
+            <span class="gov-line"></span><span class="gov-step"><i></i> Request received</span>
+            <span class="gov-step"><i></i> Under review</span><span class="gov-step gov-step-pending"><i></i> Ready for update</span>
+          </div>
+          <div class="project-info">
+            <div class="project-overline"><span>02 / WEB APPLICATION</span><span class="project-year">2026</span></div>
+            <h3>GovTrack</h3>
+            <p>A prototype that explores online document requests and clear status tracking through a review workflow. An independent demo — not an official government service.</p>
+            <div class="tags"><span>TypeScript</span><span>React</span><span>Express</span><span>MongoDB</span></div>
+            <div class="project-links">
+              <a href="https://govtrack-government-document-request.ai.studio/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/prtspndy/GovTrack" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
         </article>
 
-        <article class="project">
-          <div class="project-no">03 / PROGRAMMING</div><h3>C-language</h3>
-          <p>Beginner-friendly C exercises and lab work covering I/O, arithmetic, conditionals and core syntax, organized for concept-by-concept practice.</p>
-          <div class="tags"><span>C</span><span>GCC / Clang</span><span>Problem Solving</span></div>
-          <a class="repo-link" href="https://github.com/prtspndy/C-language" target="_blank" rel="noreferrer">View repository ↗</a>
+        <article class="project reveal">
+          <div class="project-art billing-art" aria-hidden="true">
+            <span class="invoice-label">INVOICE</span><span class="invoice-number"># INV-202609-0001</span>
+            <span class="invoice-rule"></span><span class="invoice-row"><i>Subtotal</i><b>₹ 12,500</b></span>
+            <span class="invoice-row"><i>GST</i><b>+ ₹ 2,250</b></span><span class="invoice-total"><i>TOTAL</i><b>₹ 14,750</b></span>
+            <span class="invoice-paid">✓ &nbsp; READY TO SHARE</span>
+          </div>
+          <div class="project-info">
+            <div class="project-overline"><span>03 / MOBILE APPLICATION</span><span class="project-year">2026</span></div>
+            <h3>GST Billing System</h3>
+            <p>A Flutter billing app for managing customers and products, creating GST invoices, and generating shareable PDF bills.</p>
+            <div class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span><span>Firebase Auth</span></div>
+            <div class="project-links">
+              <a href="https://github.com/prtspndy/gst_billing_system" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
         </article>
 
-        <article class="project">
-          <div class="project-no">04 / FIRST BUILD</div><h3>C-Project</h3>
-          <p>A first C project: a 2025 calendar. Small, focused, and a useful milestone in a project-based programming journey.</p>
-          <div class="tags"><span>C</span><span>CLI</span><span>Logic</span></div>
-          <a class="repo-link" href="https://github.com/prtspndy/C-Project" target="_blank" rel="noreferrer">View repository ↗</a>
-        </article>
-
-        <article class="project">
-          <div class="project-no">05 / PLAYGROUND</div><h3>MyCode</h3>
-          <p>A personal coding workspace and evolving archive. This is where future experiments, algorithms and small builds can grow.</p>
-          <div class="tags"><span>Practice</span><span>Experiments</span><span>Learning</span></div>
-          <a class="repo-link" href="https://github.com/prtspndy/MyCode" target="_blank" rel="noreferrer">View repository ↗</a>
-        </article>
-
-        <article class="project muted">
-          <div class="project-no">06 / PROFILE</div><h3>prtspndy</h3>
-          <p>The profile repository powering the public developer story, social links and featured-work overview.</p>
-          <div class="tags"><span>GitHub</span><span>README</span><span>Open Learning</span></div>
-          <a class="repo-link" href="https://github.com/prtspndy/prtspndy" target="_blank" rel="noreferrer">View repository ↗</a>
+        <article class="project reveal">
+          <div class="project-art india-art" aria-hidden="true">
+            <span class="india-sun"></span><span class="india-monument">INDIA</span>
+            <span class="india-caption">MANY CULTURES.<br>ONE HOME.</span><span class="india-edition">CULTURE · HERITAGE · CUISINE</span>
+          </div>
+          <div class="project-info">
+            <div class="project-overline"><span>04 / FRONTEND</span><span class="project-year">2026</span></div>
+            <h3>Incredible India</h3>
+            <p>A responsive, multi-page cultural site exploring India’s heritage, traditions, cuisine, and regional diversity.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+            <div class="project-links">
+              <a href="https://incredible-india-website-self.vercel.app/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/prtspndy/Incredible-india-website" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
         </article>
       </div>
-    </section>
 
-    <section id="skills" class="section split skills-section">
-      <div class="section-label"><span>03</span> TOOLKIT</div>
-      <div>
-        <p class="display small">Learning the <em>foundations</em> that scale.</p>
-        <div class="skill-groups">
-          <div class="skill-group"><small>PROGRAMMING</small><h4>C · JavaScript</h4><p>Core programming, logic and growing confidence through hands-on exercises.</p></div>
-          <div class="skill-group"><small>WEB</small><h4>HTML5 · CSS · React</h4><p>Semantic structure, responsive design and modern component-based interfaces.</p></div>
-          <div class="skill-group"><small>FULL-STACK</small><h4>Node · Express · MongoDB</h4><p>Featured in the GlobeTrotter build alongside authentication and API concepts.</p></div>
-          <div class="skill-group"><small>WORKFLOW</small><h4>Git · GitHub · VS Code</h4><p>Learning in public, documenting progress and iterating through projects.</p></div>
+      <div class="more-work">
+        <div><span class="more-label">ALSO IN THE WORKSHOP</span><p>Small builds and practice are part of the process, too.</p></div>
+        <div class="more-links">
+          <a href="https://github.com/prtspndy/Web-Designing" target="_blank" rel="noopener noreferrer">Web-Designing <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/prtspndy/C-language" target="_blank" rel="noopener noreferrer">C-language <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/prtspndy/C-Project" target="_blank" rel="noopener noreferrer">C-Project <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/prtspndy/MyCode" target="_blank" rel="noopener noreferrer">MyCode <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/prtspndy/India-Culture-Website" target="_blank" rel="noopener noreferrer">India Culture Website <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/prtspndy/Hackathon-guide" target="_blank" rel="noopener noreferrer">Hackathon Guide <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
 
-    <section id="journey" class="section">
-      <div class="section-label"><span>04</span> JOURNEY</div>
-      <div class="timeline">
-        <div class="timeline-item"><span>NOW</span><div><h3>Building stronger fundamentals</h3><p>C programming, semantic HTML, accessibility and web-design fundamentals.</p></div></div>
-        <div class="timeline-item"><span>RECENT</span><div><h3>GlobeTrotter · Hackathon 26</h3><p>Moved into full-stack territory with a travel platform spanning UI, APIs, database, auth and deployment.</p></div></div>
-        <div class="timeline-item"><span>NEXT</span><div><h3>Ship more. Learn deeper.</h3><p>Turn experiments into polished projects and expand the JavaScript/full-stack toolkit.</p></div></div>
+    <section id="toolkit" class="section toolkit-section">
+      <div class="section-kicker"><span>03</span> TOOLS &amp; CURIOSITY</div>
+      <div class="toolkit-layout">
+        <div>
+          <h2 class="display">A toolkit that<br><em>keeps growing.</em></h2>
+          <p class="toolkit-intro">These are the technologies I’ve used in projects and the fundamentals I’m actively practicing — not a claim to know it all.</p>
+        </div>
+        <div class="toolkit-list">
+          <div class="toolkit-row reveal"><span>01</span><div><h3>Web</h3><p>JavaScript · TypeScript · React · HTML · CSS · Bootstrap · Tailwind CSS</p></div><span class="toolkit-mark" aria-hidden="true">↗</span></div>
+          <div class="toolkit-row reveal"><span>02</span><div><h3>Backend &amp; data</h3><p>Node.js · Express · MongoDB · SQLite</p></div><span class="toolkit-mark" aria-hidden="true">↗</span></div>
+          <div class="toolkit-row reveal"><span>03</span><div><h3>Mobile &amp; programming</h3><p>Flutter · Dart · C · Firebase Authentication</p></div><span class="toolkit-mark" aria-hidden="true">↗</span></div>
+          <div class="toolkit-row reveal"><span>04</span><div><h3>Current direction</h3><p>Building practical apps · strengthening core concepts · exploring AI engineering</p></div><span class="toolkit-mark" aria-hidden="true">↗</span></div>
+        </div>
+      </div>
+      <div class="community-note">
+        <span class="community-mark" aria-hidden="true">+</span>
+        <p>I also contribute documentation and learning-resource updates through open-source pull requests.</p>
+        <a href="https://github.com/prtspndy?tab=contributions" target="_blank" rel="noopener noreferrer">See GitHub activity <span aria-hidden="true">↗</span></a>
       </div>
     </section>
 
     <section id="contact" class="contact section">
-      <p class="eyebrow"><i></i> HAVE AN IDEA?</p>
-      <h2>Let’s build<br><em>something useful.</em></h2>
-      <p>For collaboration, feedback, projects or simply saying hello, find me across the links below.</p>
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> THE NEXT GOOD IDEA STARTS SOMEWHERE</p>
+      <h2>Let’s make<br><em>something matter.</em></h2>
+      <p>If you’re building something useful, have feedback on my work, or just want to connect, I’d be glad to hear from you.</p>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:prtspndy@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+        <a class="button ghost" href="https://github.com/prtspndy" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
       <div class="contact-links">
-        <a href="https://github.com/prtspndy" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
-        <a href="https://www.linkedin.com/in/pritesh-pandya-0702prts" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-        <a href="https://x.com/prtspndy" target="_blank" rel="noreferrer">X <span>↗</span></a>
-        <a href="https://www.kaggle.com/priteshpandya" target="_blank" rel="noreferrer">Kaggle <span>↗</span></a>
-        <a href="https://youtube.com/@priteshpandya-20" target="_blank" rel="noreferrer">YouTube <span>↗</span></a>
+        <a href="https://www.linkedin.com/in/pritesh-pandya-0702prts" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://x.com/prtspndy" target="_blank" rel="noopener noreferrer">X <span aria-hidden="true">↗</span></a>
+        <a href="https://www.kaggle.com/priteshpandya" target="_blank" rel="noopener noreferrer">Kaggle <span aria-hidden="true">↗</span></a>
+        <a href="https://youtube.com/@priteshpandya-20" target="_blank" rel="noopener noreferrer">YouTube <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
-  <footer><span>© 2026 Pritesh Pandya</span><span>Designed in dark mode · built for the web</span><a href="#top">Back to top ↑</a></footer>
+  <footer>
+    <a class="footer-brand" href="#top">PP<span>.</span></a>
+    <span>© <span id="year">2026</span> Pritesh Pandya · Made with curiosity in Rajkot</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
