@@ -39,3 +39,5 @@ https://hackathon.odoo.com/
 vercel.com
 
 https://lovable.dev/
+
+https://gitkraken.com/gitlens
