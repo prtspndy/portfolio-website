@@ -43,3 +43,5 @@ https://lovable.dev/
 https://gitkraken.com/gitlens
 
 render.com https://share.google/aiZD0C1wAXbuRS6Cu
+
+https://aws.amazon.com/what-is/web3/
