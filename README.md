@@ -47,3 +47,5 @@ render.com https://share.google/aiZD0C1wAXbuRS6Cu
 https://aws.amazon.com/what-is/web3/
 
 https://www.ibm.com/think/topics/quantum-computing
+
+https://rust-lang.org/
