@@ -57,3 +57,5 @@ Neon — Postgres backends for apps and agents https://share.google/lvjfKFmyp8Ie
 Payment Gateway Trusted by 5L+ Businesses https://share.google/u2qdz7C0YoegeoB7f
 
 Stripe | Financial Infrastructure to Grow Your Revenue https://share.google/JTPv4l9n5RylSeWLf
+
+Source: Odoo https://share.google/zNpbFPUaYe89LrsCg
