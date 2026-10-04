@@ -61,3 +61,5 @@ Stripe | Financial Infrastructure to Grow Your Revenue https://share.google/JTPv
 Source: Odoo https://share.google/zNpbFPUaYe89LrsCg
 
 https://github.com/odoo/odoo
+
+Odoo Apps | Odoo Apps Store https://share.google/pkYnml756QrTkH5mH
