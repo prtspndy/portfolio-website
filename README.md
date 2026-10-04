@@ -51,3 +51,5 @@ https://www.ibm.com/think/topics/quantum-computing
 https://rust-lang.org/
 
 https://stitch.withgoogle.com/
+
+Neon — Postgres backends for apps and agents https://share.google/lvjfKFmyp8Ie6JvG2
