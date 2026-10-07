@@ -8,6 +8,8 @@ Link 🔗 : https://pritesh-portfolio-sigma.vercel.app/
 
 # ........
 
+https://www.statflare.in/
+
 https://trendshift.io/
 
 https://www.kaggle.com/
