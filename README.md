@@ -10,6 +10,8 @@ Link 🔗 : https://pritesh-portfolio-sigma.vercel.app/
 
 https://www.statflare.in/
 
+https://dev.to/
+
 https://www.hackerrank.com/
 
 https://trendshift.io/
