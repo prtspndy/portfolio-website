@@ -12,8 +12,6 @@ https://www.statflare.in/
 
 https://darshan.ac.in/
 
-https://youtube.com/@ipowallah2026?si=n72MLYLZxj1H_ujP
-
 https://dev.to/
 
 https://www.hackerrank.com/
