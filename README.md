@@ -73,3 +73,5 @@ Source: Odoo https://share.google/zNpbFPUaYe89LrsCg
 https://github.com/odoo/odoo
 
 Odoo Apps | Odoo Apps Store https://share.google/pkYnml756QrTkH5mH
+
+CoffeeQL — Secure database access for AI agents (MCP) https://coffeeql.dev/
