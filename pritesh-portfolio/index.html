@@ -3,16 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pritesh Pandya is a developer from Rajkot, Gujarat, building practical web and mobile applications one project at a time.">
-  <meta name="theme-color" content="#070707">
+  <meta name="description" content="Explore the projects of Pritesh Pandya, a developer in Rajkot, Gujarat building useful web and mobile experiences.">
+  <meta name="theme-color" content="#080808">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Pritesh Pandya — Developer & Builder">
-  <meta property="og:description" content="Web and mobile applications, built one practical project at a time.">
+  <meta property="og:description" content="Useful web and mobile projects by Pritesh Pandya, built one practical project at a time.">
   <meta property="og:url" content="https://pritesh-portfolio-sigma.vercel.app/">
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/186447262?v=4">
   <meta name="twitter:card" content="summary">
   <title>Pritesh Pandya — Developer &amp; Builder</title>
   <link rel="canonical" href="https://pritesh-portfolio-sigma.vercel.app/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23080808'/%3E%3Ctext x='20' y='27' fill='%23ff3038' font-family='Arial,sans-serif' font-size='20' font-weight='700' text-anchor='middle'%3EPP%3C/text%3E%3C/svg%3E">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Pritesh Pandya",
+      "url": "https://pritesh-portfolio-sigma.vercel.app/",
+      "image": "https://avatars.githubusercontent.com/u/186447262?v=4",
+      "jobTitle": "Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rajkot",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://github.com/prtspndy",
+        "https://www.linkedin.com/in/pritesh-pandya-0702prts",
+        "https://x.com/prtspndy",
+        "https://www.kaggle.com/priteshpandya",
+        "https://youtube.com/@priteshpandya-20"
+      ]
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -117,18 +141,47 @@
     <section id="work" class="section work-section">
       <div class="section-heading">
         <div class="section-kicker"><span>02</span> SELECTED PROJECTS</div>
-        <p>Things I’ve been making — from full-stack workflows to focused frontend builds.</p>
+        <p>Useful ideas, made real — from tools for student communities to small creative experiments.</p>
+      </div>
+
+      <div class="project-filters" role="group" aria-label="Filter projects">
+        <button class="project-filter is-active" type="button" data-filter="all" aria-pressed="true">All projects <span>06</span></button>
+        <button class="project-filter" type="button" data-filter="web" aria-pressed="false">Web <span>05</span></button>
+        <button class="project-filter" type="button" data-filter="mobile" aria-pressed="false">Mobile <span>01</span></button>
+        <p class="filter-status" aria-live="polite">Showing all 6 projects</p>
       </div>
 
       <div class="work-grid">
-        <article class="project project-featured reveal">
+        <article class="project project-featured reveal" data-category="web">
+          <div class="project-art campus-art" aria-hidden="true">
+            <span class="campus-label">STUDENT ORGANIZATIONS / OS</span>
+            <div class="campus-window">
+              <div class="campus-window-top"><span>CampusFlow</span><i>•••</i></div>
+              <div class="campus-summary"><span>YOUR CAMPUS, IN SYNC</span><strong>One home for<br>every student org.</strong></div>
+              <div class="campus-modules"><span>CLUBS</span><span>EVENTS</span><span>MEMBERS</span></div>
+            </div>
+            <span class="campus-index">CF / 2026</span>
+          </div>
+          <div class="project-info">
+            <div class="project-overline"><span>01 / STUDENT ORGANIZATION PLATFORM</span><span class="project-year">2026</span></div>
+            <h3>CampusFlow</h3>
+            <p>An operating system for student organizations, bringing campus communities and their day-to-day work into one place.</p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Node.js</span><span>Prisma</span></div>
+            <div class="project-links">
+              <a href="https://campusflow-os.vercel.app/" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/prtspndy/CampusFlow" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="web">
           <div class="project-art travel-art" aria-hidden="true">
             <span class="art-orbit art-orbit-one"></span><span class="art-orbit art-orbit-two"></span>
             <span class="travel-pin">✳</span><span class="art-label">YOUR NEXT<br>CHAPTER</span>
             <span class="art-route">✦ &nbsp; EXPLORE MORE</span>
           </div>
           <div class="project-info">
-            <div class="project-overline"><span>01 / HACKATHON BUILD</span><span class="project-year">2026</span></div>
+            <div class="project-overline"><span>02 / HACKATHON BUILD</span><span class="project-year">2026</span></div>
             <h3>GlobeTrotter</h3>
             <p>A multi-city travel planner for building day-by-day itineraries, discovering activities, tracking budgets, and sharing trips. Built for the Odoo × LDCE hackathon.</p>
             <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
@@ -140,14 +193,32 @@
           </div>
         </article>
 
-        <article class="project reveal">
+        <article class="project reveal" data-category="web">
+          <div class="project-art diwali-art" aria-hidden="true">
+            <span class="diwali-orbit"></span><span class="diwali-spark diwali-spark-one">✦</span><span class="diwali-spark diwali-spark-two">✳</span>
+            <span class="diwali-title">A little light,<br><em>a lot of love.</em></span>
+            <span class="diwali-lamps">HAPPY DIWALI &nbsp; · &nbsp; 2026</span>
+          </div>
+          <div class="project-info">
+            <div class="project-overline"><span>03 / CREATIVE WEB EXPERIMENT</span><span class="project-year">2026</span></div>
+            <h3>Happy Diwali</h3>
+            <p>A festive greeting page with hand-crafted artwork and canvas fireworks, built to share a little warmth and celebration.</p>
+            <div class="tags"><span>JavaScript</span><span>Canvas</span><span>CSS</span><span>Reduced motion</span></div>
+            <div class="project-links">
+              <a href="https://happydiwali-pritesh.vercel.app/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/prtspndy/Happy-Diwali" target="_blank" rel="noopener noreferrer">Source code <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="web">
           <div class="project-art gov-art" aria-hidden="true">
             <span class="gov-stamp">DEMO<br>PROTOTYPE</span><span class="gov-number">GOV—2026—0001</span>
             <span class="gov-line"></span><span class="gov-step"><i></i> Request received</span>
             <span class="gov-step"><i></i> Under review</span><span class="gov-step gov-step-pending"><i></i> Ready for update</span>
           </div>
           <div class="project-info">
-            <div class="project-overline"><span>02 / WEB APPLICATION</span><span class="project-year">2026</span></div>
+            <div class="project-overline"><span>04 / WEB APPLICATION</span><span class="project-year">2026</span></div>
             <h3>GovTrack</h3>
             <p>A prototype that explores online document requests and clear status tracking through a review workflow. An independent demo — not an official government service.</p>
             <div class="tags"><span>TypeScript</span><span>React</span><span>Express</span><span>MongoDB</span></div>
@@ -158,7 +229,7 @@
           </div>
         </article>
 
-        <article class="project reveal">
+        <article class="project reveal" data-category="mobile">
           <div class="project-art billing-art" aria-hidden="true">
             <span class="invoice-label">INVOICE</span><span class="invoice-number"># INV-202609-0001</span>
             <span class="invoice-rule"></span><span class="invoice-row"><i>Subtotal</i><b>₹ 12,500</b></span>
@@ -166,7 +237,7 @@
             <span class="invoice-paid">✓ &nbsp; READY TO SHARE</span>
           </div>
           <div class="project-info">
-            <div class="project-overline"><span>03 / MOBILE APPLICATION</span><span class="project-year">2026</span></div>
+            <div class="project-overline"><span>05 / MOBILE APPLICATION</span><span class="project-year">2026</span></div>
             <h3>GST Billing System</h3>
             <p>A Flutter billing app for managing customers and products, creating GST invoices, and generating shareable PDF bills.</p>
             <div class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span><span>Firebase Auth</span></div>
@@ -176,13 +247,13 @@
           </div>
         </article>
 
-        <article class="project reveal">
+        <article class="project reveal" data-category="web">
           <div class="project-art india-art" aria-hidden="true">
             <span class="india-sun"></span><span class="india-monument">INDIA</span>
             <span class="india-caption">MANY CULTURES.<br>ONE HOME.</span><span class="india-edition">CULTURE · HERITAGE · CUISINE</span>
           </div>
           <div class="project-info">
-            <div class="project-overline"><span>04 / FRONTEND</span><span class="project-year">2026</span></div>
+            <div class="project-overline"><span>06 / FRONTEND</span><span class="project-year">2026</span></div>
             <h3>Incredible India</h3>
             <p>A responsive, multi-page cultural site exploring India’s heritage, traditions, cuisine, and regional diversity.</p>
             <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
