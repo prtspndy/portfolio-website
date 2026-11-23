@@ -75,3 +75,32 @@ if (!reducedMotion && 'IntersectionObserver' in window) {
 
 const year = document.querySelector('#year');
 if (year) year.textContent = String(new Date().getFullYear());
+
+const projectFilters = document.querySelectorAll('.project-filter');
+const projects = document.querySelectorAll('.work-grid .project');
+const filterStatus = document.querySelector('.filter-status');
+
+projectFilters.forEach((button) => {
+  button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+    let visibleCount = 0;
+
+    projectFilters.forEach((filterButton) => {
+      const active = filterButton === button;
+      filterButton.classList.toggle('is-active', active);
+      filterButton.setAttribute('aria-pressed', String(active));
+    });
+
+    projects.forEach((project) => {
+      const visible = filter === 'all' || project.dataset.category === filter;
+      project.hidden = !visible;
+      if (visible) visibleCount += 1;
+    });
+
+    if (filterStatus) {
+      filterStatus.textContent = filter === 'all'
+        ? `Showing all ${visibleCount} projects`
+        : `Showing ${visibleCount} ${filter} ${visibleCount === 1 ? 'project' : 'projects'}`;
+    }
+  });
+});

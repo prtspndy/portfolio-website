@@ -618,6 +618,52 @@ button:focus-visible {
   line-height: 1.7;
 }
 
+.project-filters {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.project-filter {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: #aaa39d;
+  cursor: pointer;
+  font: 9px "DM Mono", monospace;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.project-filter:hover,
+.project-filter.is-active {
+  border-color: rgba(255, 48, 56, 0.55);
+  color: var(--text);
+}
+
+.project-filter.is-active {
+  background: rgba(255, 48, 56, 0.08);
+}
+
+.project-filter span {
+  color: var(--red);
+  font-size: 8px;
+}
+
+.filter-status {
+  margin: 0 0 0 auto;
+  color: var(--dim);
+  font: 9px "DM Mono", monospace;
+}
+
+.project[hidden] {
+  display: none;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -669,6 +715,170 @@ button:focus-visible {
   background:
     radial-gradient(ellipse at 63% 40%, rgba(255, 48, 56, 0.21), transparent 40%),
     linear-gradient(135deg, #171211, #0a0909 72%);
+}
+
+.campus-art {
+  align-items: center;
+  background:
+    radial-gradient(ellipse at 73% 27%, rgba(72, 198, 180, 0.18), transparent 42%),
+    linear-gradient(135deg, #101918, #0a0d0d 72%);
+}
+
+.campus-label,
+.campus-index {
+  position: absolute;
+  color: rgba(220, 239, 234, 0.48);
+  font: 8px "DM Mono", monospace;
+  letter-spacing: 0.12em;
+}
+
+.campus-label {
+  top: 24px;
+  left: 26px;
+}
+
+.campus-index {
+  right: 24px;
+  bottom: 20px;
+}
+
+.campus-window {
+  width: min(100%, 340px);
+  border: 1px solid rgba(192, 230, 219, 0.19);
+  background: rgba(8, 15, 14, 0.82);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.28);
+}
+
+.campus-window-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(192, 230, 219, 0.13);
+  color: #e2eee9;
+  font: 9px "DM Mono", monospace;
+}
+
+.campus-window-top i {
+  color: #7bc8b1;
+  font-style: normal;
+  letter-spacing: 0.2em;
+}
+
+.campus-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 21px 17px 18px;
+}
+
+.campus-summary span {
+  color: #7bc8b1;
+  font: 7px "DM Mono", monospace;
+  letter-spacing: 0.14em;
+}
+
+.campus-summary strong {
+  color: #edf2ef;
+  font-size: clamp(20px, 2.4vw, 29px);
+  font-weight: 500;
+  letter-spacing: -0.06em;
+  line-height: 1.02;
+}
+
+.campus-modules {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgba(192, 230, 219, 0.13);
+}
+
+.campus-modules span {
+  padding: 10px 6px;
+  color: #91a69f;
+  text-align: center;
+  font: 7px "DM Mono", monospace;
+  letter-spacing: 0.07em;
+}
+
+.campus-modules span + span {
+  border-left: 1px solid rgba(192, 230, 219, 0.13);
+}
+
+.diwali-art {
+  align-items: flex-start;
+  background:
+    radial-gradient(ellipse at 72% 29%, rgba(229, 141, 63, 0.2), transparent 42%),
+    linear-gradient(135deg, #211326, #100d13 72%);
+}
+
+.diwali-orbit {
+  position: absolute;
+  top: 31px;
+  right: 35px;
+  width: 138px;
+  height: 138px;
+  border: 1px solid rgba(246, 190, 105, 0.38);
+  border-radius: 50%;
+  box-shadow: 0 0 54px rgba(227, 151, 74, 0.1), inset 0 0 34px rgba(227, 151, 74, 0.07);
+}
+
+.diwali-orbit::before,
+.diwali-orbit::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 165px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: rgba(246, 190, 105, 0.23);
+  content: "";
+}
+
+.diwali-orbit::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.diwali-spark {
+  position: absolute;
+  z-index: 1;
+  color: #f3c477;
+}
+
+.diwali-spark-one {
+  top: 49px;
+  right: 96px;
+  font-size: 22px;
+}
+
+.diwali-spark-two {
+  top: 89px;
+  right: 69px;
+  color: #ec806b;
+  font-size: 14px;
+}
+
+.diwali-title {
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+  color: #f5e8d2;
+  font-size: clamp(25px, 3.2vw, 37px);
+  font-weight: 500;
+  letter-spacing: -0.065em;
+  line-height: 0.98;
+}
+
+.diwali-title em {
+  color: #f1b76f;
+  font-style: normal;
+}
+
+.diwali-lamps {
+  position: relative;
+  z-index: 1;
+  margin-top: 13px;
+  color: #b7a296;
+  font: 7px "DM Mono", monospace;
+  letter-spacing: 0.12em;
 }
 
 .art-orbit {
@@ -1407,6 +1617,16 @@ footer a:hover {
     gap: 14px;
   }
 
+  .project-filters {
+    flex-wrap: wrap;
+    margin-top: 23px;
+  }
+
+  .filter-status {
+    flex-basis: 100%;
+    margin: 5px 0 0;
+  }
+
   .section-heading p {
     max-width: 420px;
   }
@@ -1426,6 +1646,35 @@ footer a:hover {
     min-height: 230px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .campus-label {
+    top: 17px;
+    left: 18px;
+  }
+
+  .campus-index {
+    right: 18px;
+    bottom: 14px;
+  }
+
+  .campus-window {
+    max-width: 310px;
+  }
+
+  .campus-summary {
+    padding: 15px;
+  }
+
+  .campus-summary strong {
+    font-size: 24px;
+  }
+
+  .diwali-orbit {
+    top: 24px;
+    right: 26px;
+    width: 120px;
+    height: 120px;
   }
 
   .project-featured .project-info {
